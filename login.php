@@ -9,11 +9,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Login</title>
 </head>
 <body>
     <div class="container">
-        <h1>Register Page</h1>
+        <h1>Login Page</h1>
         <?php 
         // error message
         if(isset($_SESSION['errors'])){
@@ -36,7 +36,10 @@
                 <input type="text" name="password" placeholder="enter your password">
             </div>
             <button type="submit" name="submit">Login</button>
+            
         </form>
+        <a href="index.php">Register</a>
+        <a href="forgot.php">Forgot password</a>
     </div>
 </body>
 </html>

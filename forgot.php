@@ -71,6 +71,12 @@ if(isset($_POST['submit'])){
             <input type="email" name="email" placeholder="enter your email">
             <button type="submit" name="submit"> Reset </button>
         </form>
+        <a href="login.php"> 
+        Login
+        </a>
+        <a href="index.php"> 
+        Register
+        </a>
     </div>
 </body>
 </html>

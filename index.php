@@ -42,6 +42,7 @@
             <button type="submit" name="submit">Register</button>
         </form>
         <a href="forgot.php">Forgot password</a>
+        <a href="login.php">Login</a>
     </div>
 </body>
 </html>

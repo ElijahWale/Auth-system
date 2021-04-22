@@ -1,7 +1,7 @@
 <?php
 session_start();
 // user that is not logged in should not have to this page
-if($_SESSION['user_id']){
+if(!$_SESSION['user_id']){
     $_SESSION['errors'] = "User is not allowed to view this page";
     header('location: login.php');
 }
